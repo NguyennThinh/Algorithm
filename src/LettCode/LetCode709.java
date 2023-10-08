@@ -1,8 +1,5 @@
 package LettCode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class LetCode709 {
 
     public String toLowerCase(String s) {
