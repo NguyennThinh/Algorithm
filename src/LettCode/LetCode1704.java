@@ -7,7 +7,7 @@ import java.util.Set;
 public class LetCode1704 {
 
     public static void main(String[] args) {
-        String s = "Uu";
+        String s = "Uuu";
 
         System.out.println(halvesAreAlike(s));
     }
