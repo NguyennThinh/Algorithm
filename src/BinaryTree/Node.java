@@ -10,10 +10,10 @@ public class Node {
     public Node() {
     }
 
-    public Node(Student data, Node left, Node right) {
+    public Node(Student data) {
         this.data = data;
-        this.left = left;
-        this.right = right;
+        this.left = null;
+        this.right = null;
     }
 
     public Student getData() {
@@ -38,5 +38,17 @@ public class Node {
 
     public void setRight(Node right) {
         this.right = right;
+    }
+
+    public boolean lessOrEqual(int dataId){
+
+        return this.data.getId() <= dataId;
+    }
+
+    public boolean hasData(int dataId){
+        return this.data.getId() == dataId;
+    }
+    public void printData(){
+        this.data.printInfo();
     }
 }
